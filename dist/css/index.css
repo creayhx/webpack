@@ -1,0 +1,13 @@
+body{
+    background-color: red;
+    color:white;
+}
+#images{
+    width: 100px;
+    height: 100px;
+    background:url(../images/301466498c3f9da4dd316b30c4fb10ed.jpg) no-repeat center center;
+}#gogo {
+  width: 300px;
+  height: 200px;
+  background-color: #000;
+}
