@@ -1,5 +1,9 @@
 body{
     background-color: red;
     color:white;
-
+}
+#images{
+    width: 100px;
+    height: 100px;
+    background:url("../images/zhibo.jpg") no-repeat center center;
 }
