@@ -5,7 +5,7 @@ module.exports = {
         entry1 : './src/entry.js'
     }, 
     output:{ //出口
-        path : path.resolve(__dirname, './dist'),//路径
+        path : path.resolve(__dirname, 'dist'),//路径
         filename : '[name].js',//文件名称
     },
     module : { //模块
@@ -29,10 +29,10 @@ module.exports = {
     plugins : [ // 插件
         new uglify()
     ],
-    devServer :{
-        contentBase : path.resolve(__dirname, './dist'),// 监听的目录结构
+    devServer :{ // webpack 开发服务
+        contentBase : path.resolve(__dirname, 'dist'),// 监听的目录结构
         host:'127.0.0.1',
-        port: 1717,
+        port: 8080,
         compress: true, // 压缩webpack
-    } // webpack 开发服务
+    } 
 };
