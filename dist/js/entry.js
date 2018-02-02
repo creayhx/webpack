@@ -15,6 +15,10 @@ var _black = __webpack_require__(3);
 
 var _black2 = _interopRequireDefault(_black);
 
+var _config = __webpack_require__(4);
+
+var _config2 = _interopRequireDefault(_config);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 {
@@ -22,8 +26,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     $('title').html('利用公共组件调用的方法');
 }
 
-var json = __webpack_require__(4);
-document.getElementById('json').innerHMTL = json.name + '  ' + json.website;
+document.getElementById('json').innerHMTL = _config2.default.name + '  ' + _config2.default.website;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
